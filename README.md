@@ -6,9 +6,10 @@ The Animal NFC Scanner is a Java application that allows users to scan NFC tags 
 
 - NFC Tag Scanning: The application utilizes NFC technology to scan NFC tags attached to animals.
 - Animal Identification: Once an NFC tag is scanned, the application identifies the animal based on the tag information.
-- Animal Details: The scanner retrieves and displays comprehensive information about the animal, such as species, age, weight, and medical history.
+- Animal Details: The scanner retrieves and displays comprehensive information about the animal, such as name, id , date of birth, owner name and phone number.
 - User-Friendly Interface: The application provides an intuitive user interface, making it simple to scan tags and access animal details.
 - Tag Creation: Users can create new NFC tags to associate with new animals and input their respective information.
+- Web Integration: The Animal NFC Scanner is integrated with a companion website that allows users to sign in, add their animals, and manage their animal information.
 
 ## Requirements
 
@@ -19,23 +20,23 @@ The Animal NFC Scanner is a Java application that allows users to scan NFC tags 
 ## Usage
 
 1. Ensure that your device is NFC-enabled and that NFC tags are properly attached to the animals.
-2. Run the Animal NFC Scanner application on your device.
-3. Bring the device near the NFC tag on the animal you want to scan.
-4. The application will automatically detect and scan the NFC tag.
-5. Once scanned, the application will display the details of the scanned animal on the screen.
-6. Review the animal information, including species, age, weight, and medical history.
+2. Sign in to the companion website and add your animals along with their information.
+3. Run the Animal NFC Scanner application on your device.
+4. Bring the device near the NFC tag on the animal you want to scan.
+5. The application will automatically detect and scan the NFC tag.
+6. Once scanned, the application will retrieve and display the details of the scanned animal on the screen.
+7. Review the animal information, including name, id , date of birth, owner name and phone number.
 
 ### Creating a New Tag for a New Animal
 
 To create a new NFC tag for a new animal and associate it with the Animal NFC Scanner application, follow these steps:
 
-1. Launch the Animal NFC Scanner application on your device.
-2. Navigate to the "Create New Animal" section within the application.
-3. Fill in the required information about the new animal, such as species, age, weight, and medical history.
-4. Click on the "Generate NFC Tag" button within the application.
-5. Hold an empty NFC tag near the device's NFC reader.
-6. The Animal NFC Scanner application will write the animal's information to the NFC tag, associating it with the animal.
-7. Once the tag is successfully written, it can be used for future scanning with the application.
+1. Sign in to the companion website and navigate to the "Add Animal" section.
+2. Fill in the required information about the new animal, such as name, id , date of birth, owner name and phone number.
+3. Go to the app and Click on the "Sync NFC with your animal" button on the website.
+4. Follow the instrucation in the App.
+5. The Animal NFC Scanner application will write the animal's information to the NFC tag, associating it with the animal.
+6. Once the tag is successfully written, it can be used for future scanning with the application.
 
 ## Contributions
 
@@ -46,13 +47,3 @@ Contributions to the Animal NFC Scanner application are welcome! If you would li
 3. Make your modifications and ensure that the application is functioning correctly.
 4. Commit your changes and push the branch to your forked repository.
 5. Submit a pull request, explaining the changes you have made.
-
-## License
-
-The Animal NFC Scanner application is released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use and modify the application as per the terms of the license.
-
-## Contact
-
-If you have any questions, suggestions, or feedback regarding the Animal NFC Scanner application, please contact us at [your-email@example.com](mailto:your-email@example.com).
-
-We hope you find the Animal NFC Scanner application useful for identifying and accessing animal details. Happy scanning and tag creation!
