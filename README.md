@@ -1,6 +1,6 @@
-# Animal NFC Scanner
+# Furry Finder NFC 
 
-The Animal NFC Scanner is a Java application that allows users to scan NFC tags attached to animals and retrieve detailed information about the animal. This application provides an easy and efficient way to identify animals and access their relevant data.
+The Furry Finder NFC is a Java application that allows users to scan NFC tags attached to animals and retrieve detailed information about the animal. This application provides an easy and efficient way to identify animals and access their relevant data.
 
 ## Features
 
